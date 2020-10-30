@@ -37,13 +37,13 @@ class ComplexNumber{
 ComplexNumber ComplexNumber::operator+ (ComplexNumber n){
     ComplexNumber temp;
     temp.real = this->real + n.real;
-    temp.imaginary = this->real + n.imaginary;
+    temp.imaginary = this->imaginary + n.imaginary;
     return temp;
 }
 ComplexNumber ComplexNumber::operator- (ComplexNumber n){
     ComplexNumber temp;
     temp.real = this->real - n.real;
-    temp.imaginary = this->real - n.imaginary;
+    temp.imaginary = this->imaginary - n.imaginary;
     return temp;
 }
 ComplexNumber ComplexNumber::operator* (ComplexNumber n){
